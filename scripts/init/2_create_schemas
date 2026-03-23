@@ -1,0 +1,18 @@
+/*
+=============================================================
+Создание схем в базе данных 'datawarehouse'
+=============================================================
+Назначение скрипта:
+    Этот скрипт создаёт три схемы: bronze, silver и gold
+    в базе данных 'datawarehouse'.
+
+Как запускать:
+    Необходимо подключиться к базе 'datawarehouse' и выполнить скрипт.
+    Можно использовать psql:
+    psql -U ваш_пользователь -d datawarehouse -f 02_create_schemas.sql
+*/
+
+-- Создание схем (безопасно для повторного запуска)
+CREATE SCHEMA IF NOT EXISTS bronze;
+CREATE SCHEMA IF NOT EXISTS silver;
+CREATE SCHEMA IF NOT EXISTS gold;
