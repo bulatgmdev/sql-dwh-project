@@ -17,7 +17,7 @@
 
 Как запускать:
     1. Лучший способ: через psql (рекомендуется)
-       psql -U ваш_пользователь -d postgres -f 01_create_database.sql
+       psql -U ваш_пользователь -d postgres -f 1_create_database.sql
     2. В pgAdmin/DBeaver: необходимо запустить сначала только строку с DROP,
        потом отдельно строку с CREATE (в двух разных запросах).
 */
