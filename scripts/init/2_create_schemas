@@ -9,7 +9,7 @@
 Как запускать:
     Необходимо подключиться к базе 'datawarehouse' и выполнить скрипт.
     Можно использовать psql:
-    psql -U ваш_пользователь -d datawarehouse -f 02_create_schemas.sql
+    psql -U ваш_пользователь -d datawarehouse -f 2_create_schemas.sql
 */
 
 -- Создание схем (безопасно для повторного запуска)
